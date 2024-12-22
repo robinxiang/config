@@ -1,0 +1,93 @@
+[general]
+live_config_reload= true
+
+[env]
+TERM = "xterm-256color"
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[cursor.style]
+shape = "underline"
+
+[font]
+size = 12.0
+
+[font.bold]
+family = "Hack Nerd Font Mono"
+
+[font.bold_italic]
+family = "Hack Nerd Font Mono"
+
+[font.italic]
+family = "Hack Nerd Font Mono"
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+style = "Regular"
+
+[terminal.shell]
+program="C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+
+
+[selection]
+save_to_clipboard = true
+
+[scrolling]
+# 回滚缓冲区中的最大行数,指定“0”将禁用滚动。
+history=100000
+# 滚动行数
+multiplier= 4
+
+[colors.primary]
+#background = '#2E3440'
+#foreground = '#D8DEE9'
+foreground='0xeeeeec'
+[colors.normal]
+#black   = '#3B4252'
+#red     = '#BF616A'
+#green   = '#A3BE8C'
+#yellow  = '#EBCB8B'
+#blue    = '#81A1C1'
+#magenta = '#B48EAD'
+#cyan    = '#88C0D0'
+#white   = '#E5E9F0'
+ black=  '0x2e3436'
+ red=     '0xcc0000'
+ green=   '0x73d216'
+ yellow=  '0xedd400'
+ blue=    '0x3465a4'
+ magenta= '0x75507b'
+ cyan=    '0x06989a'
+ white=   '0xd3d7cf'
+[colors.bright]
+# black   = '#4C566A'
+# red     = '#BF616A'
+# green   = '#A3BE8C'
+# yellow  = '#EBCB8B'
+# blue    = '#81A1C1'
+# magenta = '#B48EAD'
+# cyan    = '#8FBCBB'
+# white   = '#ECEFF4'
+black=   '0x2e3436'
+red=     '0xef2929'
+green=   '0x8ae234'
+yellow=  '0xfce94f'
+blue=    '0x729fcf'
+magenta= '0xad7fa8'
+cyan=    '0x34e2e2'
+white=   '0xeeeeec'
+
+[window]
+decorations = "Transparent"
+blur = true
+opacity = 0.98
+
+[window.dimensions]
+columns = 120
+lines = 45
+
+[window.padding]
+x = 10
+y = 22
+
