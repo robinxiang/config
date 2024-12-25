@@ -14,16 +14,16 @@ shape = "underline"
 size = 12.0
 
 [font.bold]
-family = "Hack Nerd Font Mono"
+family = "Hack NF"
 
 [font.bold_italic]
-family = "Hack Nerd Font Mono"
+family = "Hack NF"
 
 [font.italic]
-family = "Hack Nerd Font Mono"
+family = "Hack NF"
 
 [font.normal]
-family = "Hack Nerd Font Mono"
+family = "Hack NF"
 style = "Regular"
 
 [terminal.shell]
@@ -31,7 +31,8 @@ program="C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
 
 
 [selection]
-save_to_clipboard = true
+save_to_clipboard = false
+
 
 [scrolling]
 # 回滚缓冲区中的最大行数,指定“0”将禁用滚动。
@@ -81,13 +82,13 @@ white=   '0xeeeeec'
 [window]
 decorations = "Transparent"
 blur = true
-opacity = 0.98
+opacity = 0.95
 
 [window.dimensions]
 columns = 120
 lines = 45
 
 [window.padding]
-x = 10
-y = 22
+x = 3
+y = 3
 
